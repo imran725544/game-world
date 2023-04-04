@@ -1,0 +1,35 @@
+.down-button {
+    display: flex;
+}
+
+.down-text {
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.do-btn1 {
+    margin-left: 12px;
+}
+.down-button button {
+    background: #4C4C4C;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 13px;
+    padding: 2px 13px;
+    border: none;
+}
+.down-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 154px;
+    color: #fff;
+}
+
+.download-full {
+    display: flex;
+    padding: 10px 100px;
+}
+.space h1 {
+    font-size: 211px;
+    padding: 10px 91px;
+}

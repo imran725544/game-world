@@ -1,0 +1,51 @@
+h1 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 237px;
+}
+
+.ins-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 154px;
+    /* background: none; */
+}
+
+.con-btn {
+    display: flex;
+    padding: 13px 0px;
+}
+
+.head {
+    font-weight: bold;
+    color: #fff;
+}
+
+.instant-con {
+    padding: 10px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.con-btn button {
+    background: #4C4C4C;
+    border-radius: 50px !important;
+    padding: 3px 14px;
+    border: none;
+}
+.con-btn1 {
+    margin-left: 5px;
+    color: #fff;
+}
+
+.ins-full {
+    display: flex;
+    padding: 26px 130px;
+}
+.instant-content {
+    padding: 17px;
+}
+.ins-btn button {
+    background: none;
+    border: none;
+    color: #fff;
+}

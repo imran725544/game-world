@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.bg{
+    background-image: url("../Assets/bgpanl.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 1000px;
+    position: relative;
+}
+
+.bg-inside{
+    padding: 150px 0;
+}
+
+.bg-content{
+    position: relative;
+    padding: 0 40px;
+}
+
+.bg-content h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* DULL WHITE */
+
+    color: #C4C4C4;
+}
+
+.bg-content h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 240px;
+    line-height: 290px;
+    text-transform: uppercase;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.bg-content p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    /* or 225% */
+    width: 600px;
+
+    text-transform: capitalize;
+
+    /* DULL WHITE */
+
+    color: #C4C4C4;
+}
+
+.bg-image{
+    position: absolute;
+    bottom: 0;
+    right: 42%;
+}
+
+.bg-image-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bg-image img{
+    width: 511px;
+    height: 531px;
+}
+
+.bg-image-2 img{
+    width: 807.59px;
+    height: 1001px;
+}
+
+
+
+.hero-btn {
+    display: flex;
+    position: absolute;
+    bottom: -65px;
+    left: 2%;
+    justify-content: space-around;
+    width: 15%;
+    color: #fff;
+}
+
+
+
+.btn1{
+    background: linear-gradient( #CD3AFF,#1ECCD6) padding-box,
+                linear-gradient(45deg , #CD3AFF,#1ECCD6) border-box;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    padding: 5px 20px;
+  }
+
+
+  .btn2 {
+    background: #A687DD;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding: 5px 13px;
+    padding-top: 7px;
+}
+
+.panel-down {
+    background: #4c4666;
+    width: 28%;
+    position: absolute;
+    bottom: 0;
+}
+
+.down-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.down-btn button {
+    background: none;
+    color: white;
+    border: none;
+}
+.down-image {
+    display: flex;
+    
+}
+.down-image .image {
+    padding: 10px;
+}
+.icon{
+    padding: 30px 0px;
+}

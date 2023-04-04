@@ -1,0 +1,7 @@
+.slider-content {
+    width: 100%;
+    background-image: url('../src/Assets/bg.png');
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}

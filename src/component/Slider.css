@@ -1,0 +1,28 @@
+.slick-slide img {
+    width: 100% !important;
+}
+
+img.se-img {
+    width: 232px;
+    height: 392px;
+}
+.slider-img {
+    padding: 10px;
+}
+.slider-img:hover {
+    transform: scale(1.1);
+    width: 383px !important;
+    height: 493px !important;
+    padding: 15px;
+    /* margin-left: 0px; */
+}
+li.slick-active {
+    width: 57px !important;
+    background: rgb(129, 125, 125);
+    height: 5px !important;
+}
+/* .slick-dots li button{
+        width: 20px !important;
+        height: 5px !important;
+        background: rgb(129, 125, 125) !important;
+} */
