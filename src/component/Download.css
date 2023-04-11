@@ -5,8 +5,13 @@
 .down-text {
     padding: 10px 25px;
     text-align: center;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 20px;
+    line-height: 30px;
 }
-
+.down-cont {
+    padding: 10px;
+}
 .do-btn1 {
     margin-left: 12px;
 }
@@ -15,14 +20,22 @@
     color: #fff;
     border-radius: 50px;
     font-size: 13px;
-    padding: 2px 13px;
+    padding: 2px 10px;
     border: none;
 }
 .down-btn {
     display: flex;
     justify-content: space-between;
-    padding: 10px 154px;
+    padding: 0 107px;
     color: #fff;
+    margin-top: -30px;
+}
+
+.down-btn .down1 button {
+    background: none;
+    color: white;
+    font-size: 20px;
+    border: none;
 }
 
 .download-full {
@@ -32,4 +45,23 @@
 .space h1 {
     font-size: 211px;
     padding: 10px 91px;
+    color: #fff;
+    font-weight: bold;
 }
+.space {
+    margin-top: 100px;
+}
+
+.heading-down h1 {
+    width: 100%;
+    font-size: 206px;
+    color: #fff;
+    font-weight: bold;
+    padding: 0px 113px;
+}
+
+/* span.ga {
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+} */

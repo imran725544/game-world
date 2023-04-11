@@ -9,18 +9,20 @@ const Download = (props) => {
     
   return (
     <>
-    <div className='space'>
-    <h1>Download GameS</h1>
+    <div className='heading-down'>
+    <h1 > <span className='in'>Download</span> <span className='ga'>GAMES</span></h1>
+    </div>
     <div className='down-btn'>
         <div className='down1'>
-            DOWNLOAD GAMES
+           <button>DOWNLOAD GAMES</button> 
         </div>
 
         <div className='down1'>
-            See all
+           <button>
+           See all</button> 
         </div>
     </div>
-    </div>
+    {/* </div> */}
         <div className='download-full'>
         
         {props.down.map((dow) => {
@@ -40,7 +42,7 @@ const Download = (props) => {
             <StarRatings
             rating={3}
             starDimension="20px"
-            starSpacing="3px"
+            starSpacing="1px"
             />
 
         <div className='down-button'>

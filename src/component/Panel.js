@@ -24,11 +24,11 @@ const Panel = () => {
         </p>
         <div className="hero-btn">
                      <div className="btn1">
-                         PLAY GAME
+                        <button> PLAY GAME</button>
                      </div>
 
                      <div className="btn2">
-                         DOWNLOAD GAME
+                        <button>DOWNLOAD GAME</button> 
                      </div>
 
                  </div>

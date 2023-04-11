@@ -16,13 +16,87 @@ import Instant from './component/Instant';
 
 import downone from './Assets/do.png'
 
+import market from './Assets/m1.png'
+import ellicpe from './Assets/e1.png'
+
 // import background from './Assets/bg.png'
 
 import instant from './Assets/in1.png'
 import Download from './component/Download'
+import Market from './component/Market'
+import Footer from './component/Footer'
+import Footerlast from './component/Footerlast'
 
 
 const App = () => {
+
+
+  const MarketData = [
+    {
+    image : market,
+    text1 : "PUBG MOBILE GAME",
+    text2 :  "PUBG MOBILE GAME",
+    image2 : ellicpe,
+    text3 :  "Rs : 1500",
+    text4 :  "per gift",
+    btnm :  "BUY NOW"
+
+
+  },
+
+
+  {
+    image : market,
+    text1 : "PUBG MOBILE GAME",
+    text2 :  "PUBG MOBILE GAME",
+    image2 : ellicpe,
+    text3 :  "Rs : 1500",
+    text4 :  "per gift",
+    btnm :  "BUY NOW"
+
+
+  },
+
+
+  {
+    image : market,
+    text1 : "PUBG MOBILE GAME",
+    text2 :  "PUBG MOBILE GAME",
+    image2 : ellicpe,
+    text3 :  "Rs : 1500",
+    text4 :  "per gift",
+    btnm :  "BUY NOW"
+
+
+  },
+
+
+  {
+    image : market,
+    text1 : "PUBG MOBILE GAME",
+    text2 :  "PUBG MOBILE GAME",
+    image2 : ellicpe,
+    text3 :  "Rs : 1500",
+    text4 :  "per gift",
+    btnm :  "BUY NOW"
+
+
+  },
+
+
+  {
+    image : market,
+    text1 : "PUBG MOBILE GAME",
+    text2 :  "PUBG MOBILE GAME",
+    image2 : ellicpe,
+    text3 :  "Rs : 1500",
+    text4 :  "per gift",
+    btnm :  "BUY NOW"
+
+
+  }
+
+]
 
   const Images = [sliderone,slidertwo,sliderthree,sliderfour,sliderfive,sliderone,slidertwo];
 
@@ -142,9 +216,8 @@ const App = () => {
   ]
   return (
     <>
-    <div><Header/>
+    <Header/>
       <Panel/>
-    </div>
 
     <div className='slider-content'>
      
@@ -153,7 +226,12 @@ const App = () => {
    <Instant inst={InstantCon}/>
 
    <Download down={DownloadCon}/>
-    
+
+   <Market mar={MarketData}/>
+   
+    <Footer/>
+
+    <Footerlast/>
       
     </div>
     </>

@@ -1,0 +1,89 @@
+
+
+.footer {
+    padding: 39px 70px;
+    position: relative;
+    background: linear-gradient(180deg, #120D26 0%, rgba(0, 0, 0, 0) 100%), rgba(255, 244, 243, 0.01);
+    mix-blend-mode: screen;
+    margin-top: 138px;
+}
+
+.foo-right {
+    margin-top: 126px;
+}
+
+/* .foo-right img {
+    width: 100%;
+} */
+
+
+.f-left {
+    position: relative;
+}
+
+.image-one {
+    position: absolute;
+    bottom: 142px;
+}
+
+.image-two {
+    position: absolute;
+    bottom: 32px;
+    left: 20%;
+}
+
+.image-three {
+    left: 8%;
+    position: absolute;
+    top: 111px;
+}
+
+
+.row.items-cen {
+    align-items: center;
+    display: flex;
+}
+
+.f-middle .text {
+    width: 61%;
+    color: #fff;
+    font-size: 24px;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.f-middle{
+    text-align: center;
+}
+
+
+.f-middle .heading {
+    color: #fff;
+    font-size: 53px;
+    font-weight: bold;
+}
+
+.f-btn button {
+    border: none;
+    background: none;
+    color: #fff;
+    padding: 12px;
+}
+
+.f-btn {
+    background: linear-gradient(90deg, rgba(205, 58, 255, 0.5) 0%, rgba(30, 204, 214, 0.5) 100%);
+    /* filter: blur(20.7303px); */
+    border-radius: 36px;
+    width: 27%;
+    margin: auto;
+}
+
+.f-watch{
+    position: absolute;
+    top: 107px;
+    left: 142px;
+
+}
+
+
+

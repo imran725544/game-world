@@ -97,15 +97,21 @@
 
 
 
-.btn1{
-    background: linear-gradient( #CD3AFF,#1ECCD6) padding-box,
-                linear-gradient(45deg , #CD3AFF,#1ECCD6) border-box;
-    border: 2px solid transparent;
-    border-radius: 50px;
+
+
+.hero-btn button{
+background: none;
+border: none;
+}
+
+
+
+.btn1 {
+    background: linear-gradient(90deg, rgba(205, 58, 255, 0.3) 50%, rgba(30, 204, 214, 0.3) 100%) padding-box, linear-gradient(90deg, #5B65A0 0%, #1ECCD6 100%) border-box;
+    border-radius: 50em;
+    border: 4px solid transparent;
     padding: 5px 20px;
-  }
-
-
+}
   .btn2 {
     background: #A687DD;
     border-radius: 50px;

@@ -5,7 +5,10 @@ import './Instant.css'
 const Instant = (props) => {
   return (
 <>
-<h1>INSTANT GAMES</h1>
+<div className='heading-inst'>
+<h1 > <span className='in'>INSTANT</span> <span className='ga'>GAMES</span></h1>
+</div>
+
     <div className='ins-btn' >
         <div className='ins-btn1'>
            <button>  PLAY INSTANT GAMES</button>

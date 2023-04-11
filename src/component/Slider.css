@@ -16,6 +16,16 @@ img.se-img {
     padding: 15px;
     /* margin-left: 0px; */
 }
+  .rec h2 {
+    color: #fff;
+    padding: 52px 92px;
+}
+li.slick {
+    width: 57px !important;
+    background: rgb(129, 125, 125) !important;
+    height: 5px !important;
+}
+
 li.slick-active {
     width: 57px !important;
     background: rgb(129, 125, 125);
@@ -26,3 +36,10 @@ li.slick-active {
         height: 5px !important;
         background: rgb(129, 125, 125) !important;
 } */
+
+
+
+.slick-dots li button:before{
+    color: grey !important;
+
+}

@@ -19,7 +19,10 @@ const Sliderimage = (props) => {
 
   return (
     <>
-      <h2>Recommended Streams</h2>
+    <div className="rec">
+    <h2 >Recommended Streams</h2>
+    </div>
+     
 
       <Slider {...settings}>
         {props.Image.map((img) => {
