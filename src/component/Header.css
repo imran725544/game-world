@@ -26,9 +26,7 @@ li {
 
 .header-right {
     display: flex;
-    justify-content: space-around;
-    /* text-align: center; */
-    /* justify-content: center; */
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -36,5 +34,5 @@ li {
     color: #fff;
     background: linear-gradient(90deg, rgba(205, 58, 255, 0.5) 0%, rgba(30, 204, 214, 0.5) 100%);
     border-radius: 20px;
-    padding: 5px 30px;
+    padding: 5px 40px;
 }

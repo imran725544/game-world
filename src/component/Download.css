@@ -1,26 +1,35 @@
 .down-button {
     display: flex;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
 }
 
 .down-text {
-    padding: 10px 25px;
+    padding: 15px 25px;
     text-align: center;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
     border-radius: 20px;
-    line-height: 30px;
+   
+}
+
+.star-ratings {
+    padding: 10px 0px;
 }
 .down-cont {
     padding: 10px;
 }
-.do-btn1 {
+/* .do-btn1 {
     margin-left: 12px;
-}
+} */
 .down-button button {
     background: #4C4C4C;
     color: #fff;
     border-radius: 50px;
-    font-size: 13px;
-    padding: 2px 10px;
+    font-size: 11px;
+    padding: 5px 9px;
     border: none;
 }
 .down-btn {
@@ -40,7 +49,8 @@
 
 .download-full {
     display: flex;
-    padding: 10px 100px;
+    padding: 10px 118px;
+    justify-content: space-around;
 }
 .space h1 {
     font-size: 211px;
@@ -54,10 +64,11 @@
 
 .heading-down h1 {
     width: 100%;
-    font-size: 206px;
+    font-size: 195px;
     color: #fff;
     font-weight: bold;
-    padding: 0px 113px;
+    /* padding: 0px 113px; */
+    text-align: center;
 }
 
 /* span.ga {

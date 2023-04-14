@@ -43,7 +43,7 @@ const Panel = () => {
         </div>
 
         <div className="panel-down">
-            <div className="down-btn">
+         <div className="down-btn">
                 <div className="d-btn1">
                     <button > live streams</button>
                 </div>
@@ -51,9 +51,11 @@ const Panel = () => {
                 <div className="d-btn2">
                     <button > see all</button>
                 </div>
-            </div>
+            </div> 
 
             <div className="down-image">
+
+            
                 <div className="image">
             <img src = {downone} alt=""/>
                 </div>

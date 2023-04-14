@@ -205,14 +205,7 @@ const App = () => {
 
     },
 
-    {
-      image:downone,
-      text:"PUBG MOBILE GAME",
-      btn1:"Shooting game",
-      btn2:"Action",
-     
-
-    }
+   
   ]
   return (
     <>
