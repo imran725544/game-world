@@ -1,0 +1,59 @@
+/* .f-logo {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 102px;
+} */
+
+.fo-mail {
+    display: flex;
+    /* width: 17%; */
+    /* margin: auto; */
+    /* justify-content: space-evenly; */
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 26px; */
+}
+
+.mail-box {
+    margin-left: 38px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.fo-text {
+    color: #fff;
+}
+
+.input input {
+    background: #323236;
+    border-radius: 50px;
+    border: none;
+    width: 100%;
+    padding: 16px;
+}
+.Footerlast {
+    padding: 72px 0px;
+    /* border-bottom: 2px solid; */
+    /* width: 91%; */
+    /* margin: auto; */
+}
+
+.icon-fo svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    color: #fff;
+    font-size: 38px;
+    background: linear-gradient(180deg, #CD3AFF 0%, #1ECCD6 100%);
+    border-radius: 50%;
+    position: absolute;
+    right: 17px;
+    top: 8px;
+    /* height: 52px; */
+    padding: 7px;
+    /* width: 58px; */
+}
+
+.input {
+    width: 100%;
+}

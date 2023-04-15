@@ -39,7 +39,15 @@ li.slick-active {
 
 
 
-.slick-dots li button:before{
-    color: grey !important;
+/*  */
 
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 5px !important;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    background: gray !important;
 }

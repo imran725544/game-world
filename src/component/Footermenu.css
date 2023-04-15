@@ -1,0 +1,25 @@
+.foo-menu {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid;
+    padding: 24px 0px;
+}
+.fo-logo img{
+    width: 50%;
+}
+
+.foo-text {
+    color: #fff;
+}
+
+.icons svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    color: #fff;
+    background: #323236;
+    margin-left: 13px;
+    padding: 5px;
+    font-size: 37px;
+    border-radius: 50px;
+}

@@ -26,6 +26,7 @@ import Download from './component/Download'
 import Market from './component/Market'
 import Footer from './component/Footer'
 import Footerlast from './component/Footerlast'
+import Footermenu from './component/Footermenu'
 
 
 const App = () => {
@@ -225,6 +226,8 @@ const App = () => {
     <Footer/>
 
     <Footerlast/>
+
+    <Footermenu/>
       
     </div>
     </>

@@ -1,16 +1,41 @@
 import React from 'react'
 
-import logo from '../Assets/logo.png'
+import NearMeSharpIcon from '@mui/icons-material/NearMeSharp';
+
+
 import './Footerlast.css'
 const Footerlast = () => {
+  
   return (
     <div className='  Footerlast'>
-            <div className='f-logo'>
-            <img src={logo} alt=''/>
-            </div>
+
+<div className='fo-mail'>
+      <div className='fo-text'>
+      Newsletter
+      </div>
+
+      <div className='mail-box'>
+        <div className='input'>
+        <input placeholder='Your Email'/>
+
+
+        </div>
+        <div className='icon-fo'>
+        
+        <NearMeSharpIcon/>
+        </div>
+
+        
+        
+      </div>
+</div>
+
+           
 
     </div>
+    
   )
+  
 }
 
 export default Footerlast
